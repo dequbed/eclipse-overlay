@@ -72,7 +72,6 @@ _unbundle_known() {
 	local mode="${1}"
 
 	# https://wiki.gentoo.org/wiki/Eclipse/Building_From_Source
-	_unbundle_single "${mode}" plugins/com.ibm.icu_56.1.0.v201601250100.jar icu4j-56 icu4j.jar
 	_unbundle_single "${mode}" plugins/javax.annotation_1.2.0.v201602091430.jar jsr250 jsr250.jar
 	_unbundle_single "${mode}" plugins/javax.inject_1.0.0.v20091030.jar javax-inject javax-inject.jar
 	_unbundle_single "${mode}" plugins/org.apache.commons.httpclient_3.1.0.v201012070820.jar commons-httpclient-3 commons-httpclient.jar
